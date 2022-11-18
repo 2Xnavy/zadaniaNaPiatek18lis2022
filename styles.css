@@ -1,0 +1,29 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+.gradient{
+    background: linear-gradient(rgb(48, 48, 48), rgb(26, 26, 26));
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+p{
+    margin: 0%;
+    padding: 0.3cm;
+    font-size: 1.5cm;
+    font-family: paragraphFont;
+    letter-spacing: 0.1cm;
+    text-shadow: 0 0 0.3cm rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: paragraphFont;
+    src: url(fonts/Mont-ExtraLightDEMO.otf);
+}
